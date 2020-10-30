@@ -18,3 +18,51 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background: black;
+  color: white;
+  height: 50px;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+left-side {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+article-table {
+  width:50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+article {
+  width: 45%;
+  /*flex: 1;*/
+}
+
+right-side {
+  width: 15%;
+}

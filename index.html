@@ -1,15 +1,93 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Title</title>
-  <link rel="stylesheet" href="./src/style/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="./src/style/index.css">
 </head>
 <body>
-  Hello World
-  <script src="src/app.js"></script>
+<header class="header">
+    <nav>
+        <ul class="nav-ul">
+            <li>Home</li>
+            <li>World</li>
+            <li>Technology</li>
+            <li>Design</li>
+            <li>Culture</li>
+            <li>Business</li>
+            <li>Politics</li>
+            <li>Opinion</li>
+            <li>Science</li>
+            <li>Health</li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <left-side>
+        <about>
+            <h1>About</h1>
+            <p>The content of About. The content of About. The content of About. The content of About. The content of
+                About. The content of About. </p>
+        </about>
+        <archives>
+            <ul class="archives-link">
+                <li><a href="">January 2020</a></li>
+                <li><a href="">December 2019</a></li>
+                <li><a href="">November 2019 </a></li>
+                <li><a href="">October 2019 </a></li>
+                <li><a href="">September 2019 </a></li>
+                <li><a href="">August 2019 </a></li>
+                <li><a href="">July 2019 </a></li>
+                <li><a href="">June 2019 </a></li>
+                <li><a href="">May 2019 </a></li>
+                <li><a href="">April 2019 </a></li>
+            </ul>
+        </archives>
+    </left-side>
+    <article-table>
+        <article>
+            <thumbnail>
+                Thumbnail
+            </thumbnail>
+            <h1>Article 1</h1>
+            <p>The content of article 1. The content of article 1. The content of article 1. The content of article 1.
+                The content of article 1. The content of article 1. The content of article 1. </p>
+            <a href="">View Details >></a>
+        </article>
+        <article>
+            <thumbnail>
+                Thumbnail
+            </thumbnail>
+            <h1>Article 2</h1>
+            <p>The content of article 2. The content of article 2. The content of article 2. The content of article 2.
+                The content of article 2. The content of article 2. The content of article 2. The content of article 2.
+                The content of article 2. The content of article 2. The content of article 2. The content of article 2.
+                The content of article 2. The content of article 2. </p>
+            <a href="">View Details >></a>
+        </article>
+        <article>
+            <thumbnail>
+                Thumbnail
+            </thumbnail>
+            <h1>Article 3</h1>
+            <p>The content of article 3. The content of article 3. The content of article 3. The content of article 3.
+                The content of article 3. The content of article 3. The content of article 3. </p>
+            <a href="">View Details >></a>
+        </article>
+    </article-table>
+    <right-side>
+        <input type="text" placeholder="Email Address"/>
+        <input type="text" placeholder="Password"/>
+        <div class="remember">
+            <input type="checkbox"/>
+            <span>Remember me</span>
+        </div>
+        <button type="button">Sign in</button>
+    </right-side>
+</main>
+<script src="src/app.js"></script>
 </body>
 </html>
