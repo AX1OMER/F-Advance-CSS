@@ -23,7 +23,7 @@ ul {
   background: black;
   color: white;
   height: 50px;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   display: flex;
   align-items: center;
 }
@@ -45,24 +45,107 @@ main {
 }
 
 left-side {
-  width: 15%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
 article-table {
-  width:50%;
+  width:83%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 article {
-  width: 45%;
-  /*flex: 1;*/
+  display: flex;
+  flex-direction:column;
+  margin-bottom:5%;
+  border:1px solid gainsboro;
+}
+
+article-left {
+  width:39%;
+}
+
+article-right {
+  width:39%;
 }
 
 right-side {
   width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: gainsboro;
+}
+
+thumbnail {
+  color:white;
+  background: darkgray;
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+about {
+  background:gainsboro;
+  margin-bottom: 10%;
+}
+
+h1, p {
+  margin:5%;
+}
+
+.archives-link {
+  margin:5%;
+}
+
+.oblique-title {
+  font-style:oblique;
+}
+
+remember {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.email-address {
+  height: 30px;
+  width:90%;
+  margin-top:5%;
+
+}
+
+.password {
+  height: 30px;
+  width:90%;
+}
+
+.login-button {
+  text-align: center;
+  height: 30px;
+  border-radius: 4px;
+  background-color: blue;
+  margin-bottom:5%;
+  border-style: none;
+  color: white;
+  padding:0px 35%;
+  font-size: large;
+}
+
+footer {
+  margin-top: 2%;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 1%;
+}
+
+.copyright {
+  margin:0px;
 }
